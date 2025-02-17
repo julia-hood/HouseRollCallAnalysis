@@ -36,7 +36,7 @@ library(Rserve)
 Rserve(args="--vanilla")
 ```
 3. Once the RServer is running, create a new Java project with the provided code and download the REngine
-and RServeEngine JAR files from https://www.rforge.net/Rserve/files/. 
+and RServeEngine c files from https://www.rforge.net/Rserve/files/. 
 
 
-4. Add the jar files to the project's build path to connect Java to R. 
+4. Add the JAR files to the project's build path to connect Java to R. 
