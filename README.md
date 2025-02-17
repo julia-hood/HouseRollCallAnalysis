@@ -8,8 +8,8 @@ In order to conduct this analysis, I chose to use a large data set of House of R
 roll call votes, which is cited below, with all votes ranging from 1953 to 2024. 
 
 The program takes in two separate years from the user in the Java terminal, then performs regression
-in R to compare the presence of party unity votes, which is when a majority 
-of one party opposes the majority of another, among the roll call votes. 
+in R on the two subsets of roll call votes to find out to what extent they differ in
+party unity votes, which are when a majority of one party opposes the majority of another. 
 The regression controls for near unanimous votes, where 90 percent or more of representatives vote 
 the same way on a bill, in order to isolate the polarizing votes. A limitation of this program is that 
 it cannot control for long term changes in polarization over time, since the regression only analyzes
