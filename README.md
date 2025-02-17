@@ -2,7 +2,7 @@
 
 ## About the Project
 
-This project aims to provoke thought and analysis of polarization in the United States Congress, 
+This project aims to provoke thought about and analysis of polarization in the United States Congress, 
 a topic which has only grown increasingly relevant as the country becomes increasingly politically polarized. 
 In order to conduct this analysis, I chose to use a large data set of House of Representatives 
 roll call votes, which is cited below, which includes votes ranging from 1953 to 2024. 
