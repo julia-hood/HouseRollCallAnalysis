@@ -2,10 +2,10 @@
 
 ## About the Project
 
-This project aims to provoke thought about and analysis of polarization in the United States Congress, 
+This project aims to provoke thought and analysis of polarization in the United States Congress, 
 a topic which has only grown more relevant as the country becomes increasingly politically polarized. 
 In order to conduct this analysis, I chose to use a large data set of House of Representatives 
-roll call votes, which is cited below, with all votes ranging from 1953 to 2024. 
+roll call votes, which is cited below, with votes ranging from 1953 to 2024. 
 
 The program takes in two separate years from the user in the Java terminal, then performs regression
 in R on the two subsets of roll call votes to find out to what extent they differ in
@@ -37,7 +37,7 @@ library(Rserve)
 Rserve(args="--vanilla")
 ```
 3. Once the RServer is running, create a new Java project with the provided code and download the REngine
-and RServeEngine c files from https://www.rforge.net/Rserve/files/. 
+and RServeEngine files from https://www.rforge.net/Rserve/files/. 
 
 
 4. Add the JAR files to the project's build path to connect Java to R. 
